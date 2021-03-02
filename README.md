@@ -51,27 +51,6 @@ from Video2Pics import Video2Pics
 Video2Pics(video_srcpath="--path-to-video-source file--",
             output_dir="--path-to-output-directory--")
 
-Want to capture frames in between some interval
-from video2images import Video2Images
-# Lets take start_time to be 1mins i.e 60s
-# & end_time to be 5 mins i,e 300s out of 10mins videos
-Video2Images(video_srcpath="--path-to-source video-file--",
-             start_time=60,
-             end_time=300,
-             output_dir="--path-to-output-directory--")
-
-Want only first 'f' frames out of 30 frames per second
-from Video2Pics import Video2Pics
-# Let say f = 35 i.e capturing image every 35 sec gap
-Video2Images(video_srcpath="--path-to-source video-file--",
-             frame_rate=35,
-             output_dir ="--path-to-output-directory--")
-Want output image to be saved in tif or other format
-from Video2Pics import Video2Pics
-Video2Pics(video_srcpath="--path-to-source video-file--",
-             save_format="tif",
-             output_dir="--path-to-output-directory--")
-
 Note:- The output will be saved in a pic_{timestamp}_count
 Output Process Screenshot
 

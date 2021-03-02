@@ -11,15 +11,21 @@ It requires to be installed
 
 
 Class Object Argument Description
+
 Argument	Description
+
 video_srcpath	source path of the video
 start_time	Default value is None i.e 0s will be considered
+
 end_time	Default value is None i.e till end of duration will be
 considered
+
 frame_rate	No. of frames you want to capture per second.
 For e.g if frame_rate= 15 then only first 15
 frames will be captured out of input Frames per second
+
 save_format	Output picture / image file extension. By default "jpg"
+
 output_dir	Output directory for saving picture / images. If not specified
 the source file path the pictures will be saved
 

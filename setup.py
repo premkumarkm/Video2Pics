@@ -11,9 +11,9 @@ setuptools.setup(
     description="Generate the pictures from the Video file",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/premkumarkm/Video2Pics/",
+    url="https://github.com/premkumarkm/Video2Pics.git",
     project_urls={
-        "Bug Tracker": "https://github.com/premkumarkm/Video2Pics/",
+        "Bug Tracker": "https://github.com/premkumarkm/Video2Pics.git",
     },
     classifiers=[
         "Programming Language :: Python :: 3",

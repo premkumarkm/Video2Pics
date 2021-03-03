@@ -53,8 +53,9 @@ For Image
 
 How to use?
 Minimal setting (Basic)
+
 from Video2Pics import Video2Pics
-Video2Pics(video_srcpath="--path-to-video-source file--",
+x=Video2Pics(video_srcpath="--path-to-video-source file--",
             output_dir="--path-to-output-directory--")
 
 Note:- The output will be saved in a pic_{timestamp}_count

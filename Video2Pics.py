@@ -93,7 +93,7 @@ class Video2Pics:
         print("End time",self.end_time)
         print("Frame rate",self.frame_rate)
         self.frameRate = int(self.frame_rate) 
-        self.count=1
+        self.count=0
         success = self.getFramePic(self.sec) #read the video file and generate images
         while success and int(self.start_time)<int(self.end_time):
             self.count = self.count + 1

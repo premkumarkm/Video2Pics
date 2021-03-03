@@ -1,4 +1,4 @@
-About
+<b>About</b>
 
 Video2Pics library which helps to convert video file into pictures / image with adjustable time frame.
 The objective why I created this library is to ease the process of creating the video to pictures / image frames conversion process. We can generate picture / images of an video or a subpart of a video and that too custom frame capture rate and start / end time (in sec) of video.
@@ -10,7 +10,7 @@ It requires to be installed
 •	Opencv2 and numpy
 
 
-Class Object Argument Description
+<b>Class Object Argument Description</b>
 
 Argument	Description
 
@@ -33,7 +33,7 @@ the source file path the pictures will be saved
 Note:- The capture_rate if not specified will consider the original video frames per second rate
 Frame Capture Rate Explaination
 
-Valid Extensions
+<b>Valid Extensions</b>
 
 For Video
 •	.mov
